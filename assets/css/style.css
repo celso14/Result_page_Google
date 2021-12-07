@@ -7,7 +7,6 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    padding-top: 10px;
 }
 header{
     display: flex;
@@ -18,8 +17,7 @@ header{
 
 .container{
     width: 100%;
-    height: auto;
-    background-color: black;
+    height: 100%;
 }
 .search{
     height: 69px;
@@ -27,6 +25,8 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
+    padding-top: 20px;
+
 }
 .logo{
     height: 100%;
@@ -38,6 +38,7 @@ header{
 .logo img{
     width: 92px;
     height: 33px;
+    object-fit: contain;
 }
 .search_box{
     width: 719px;
@@ -54,7 +55,7 @@ header{
     margin-left: 29px;
     border: 1px solid #CCCCCC;
     border-radius: 30px;
-    box-shadow: 0px 0px 3px #CCCCCC;
+    box-shadow: 1px 1px 3px #ccc;
 }
 form{
     display: flex;
@@ -76,12 +77,13 @@ form input:focus{
     width: 24px;
     height: 24px;
     margin-right: 10px;
+    object-fit: contain;
 }
 .menu{
     display: flex;
     margin-right: 29px;
 }
-nav ul{
+.menu nav ul{
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -89,12 +91,12 @@ nav ul{
     align-items: center;
     padding: 20px;
 }
-nav a img{
+.menu nav a img{
     width: 22px;
     height: 22px;
     margin-left: 22px;
 }
-nav a #login{
+.menu nav a #login{
     width: 28px;
     height: 28px;
     border-radius: 30px;
@@ -103,8 +105,50 @@ nav a #login{
 
 
 
-
-.topic{
+.search_menu{
     height: 58px;
-    background-color: blue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-bottom: 1px solid #ccc;
 }
+.search_menu nav{
+    margin-left: 145px;
+}
+.search_menu nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.search_menu nav a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #5c5c5c;
+}
+.search_menu nav a img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    margin-right: 3px;
+}
+.search_option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 22px;
+    font-size: 15px;
+}
+.ferramentas{
+    margin-left: 42px;
+}
+
+
+
+
+
+
