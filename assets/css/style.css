@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+}
+header{
+    display: flex;
+    height: 127px;
+}
+
+
+
+.container{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.search{
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.logo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.logo img{
+    width: 92px;
+    height: 33px;
+}
+.search_box{
+    width: 719px;
+    height: 46px;
+    display: flex;
+}
+.form{
+    width: 719px;
+    height: 46px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 15px 5px 15px;
+    margin-left: 29px;
+    border: 1px solid #CCCCCC;
+    border-radius: 30px;
+    box-shadow: 0px 0px 3px #CCCCCC;
+}
+form{
+    display: flex;
+    
+}
+form input{
+    width: 493px;
+    height: auto;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    padding-right: 15px;
+    margin-right: 15px;
+}
+form input:focus{
+    border-right: 1px solid #ccc;
+}
+.form a img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.menu{
+    display: flex;
+    margin-right: 29px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+nav a img{
+    width: 22px;
+    height: 22px;
+    margin-left: 22px;
+}
+nav a #login{
+    width: 28px;
+    height: 28px;
+    border-radius: 30px;
+}
+
+
+
+
+
+.topic{
+    height: 58px;
+    background-color: blue;
+}
