@@ -150,5 +150,159 @@ form input:focus{
 
 
 
+section{
+    display: flex;
+}
 
 
+
+.results{
+    display: flex;
+    margin-left: 145px;
+    margin-top: 12px;
+    font-size: 15px;
+    color: #707570;
+}
+
+
+
+.content{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 145px;
+    margin-top: 25px;    
+}
+.content h3{
+    margin: 0;
+    font-size: 14px;
+    color: #202114;
+}
+.content h2{
+    margin: 0;
+    font-size: 14px;
+    color: #4d5156;
+}
+.content h1{
+    margin: 0;
+    font-size: 20px;
+    color: #1A0DAB;
+}
+
+
+
+.related{
+    display: flex;
+    flex-direction: column;
+    margin-left: 145px;
+    margin-top: 40px;
+    width: 35%;
+}
+.related span{
+    font-size: 22px;
+    color: #202114;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+
+.related_content{
+    display: flex;
+    flex-direction: row;
+}
+.options{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-right: 12px;
+    border: 1px solid #f1f3f4;
+    border-radius: 18px;
+    background-color: #f1f3f4;
+}
+.options img{
+    width: 30px;
+    height: 30px;
+    background-color: #f1f3f4;
+    margin-right: 5px;
+}
+.options a{
+    text-decoration: none;
+    color: #202114;
+}
+
+
+
+.pages{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 145px;
+    margin-top: 50px;
+}
+.pages a:first-child{
+    color: #202114;
+}
+.pages a{
+    text-decoration: none;
+    color: #4285f4;
+    margin-right: 5px;
+}
+.pages #more_pages{
+    margin-left: 20px;
+}
+.pages a:hover{
+    text-decoration: underline;
+}
+
+
+
+footer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 12px 0px 12px 0px;
+    background-color: #f2f2f2;
+}
+.place{
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+
+}
+.place span{
+    height: 100%;
+    margin-left: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #70757a;
+}
+.footer_content{
+    height: 50%;
+    display: flex;
+}
+nav{
+    margin-left: 145px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+nav li a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: #70757a;
+}
+nav li a:hover{
+    text-decoration: underline;
+}
